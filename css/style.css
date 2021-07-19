@@ -27,7 +27,7 @@
 	src: url("../assets/Font/Poppins-Regular.ttf");
 }
 .section1{
-	background-image: url("../assets/Cover1.png");
+	background-image: url("../assets/cover1.png");
 	background-color: #56B9B4;
 	background-size: cover;
   	min-height: 100hv;
