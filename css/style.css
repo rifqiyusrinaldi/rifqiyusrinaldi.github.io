@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Bold;
+	src: url("../assets/Font/Poppins-Bold.ttf");
+}
+@font-face{
+	font-family: ExtraBold;
+	src: url("../assets/Font/Poppins-ExtraBold.ttf");
+}
+@font-face{
+	font-family: SemiBold;
+	src: url("../assets/Font/Poppins-SemiBold.ttf");
+}
+@font-face{
+	font-family: Medium;
+	src: url("../assets/Font/Poppins-Medium.ttf");
+}
+@font-face{
+	font-family: Light;
+	src: url("../assets/Font/Poppins-Light.ttf");
+}
+@font-face{
+	font-family: Regular;
+	src: url("../assets/Font/Poppins-Regular.ttf");
+}
+.section1{
+	background-image: url("../assets/Cover1.png");
+	background-color: #56B9B4;
+	background-size: cover;
+  	min-height: 100hv;
+}
+.section2{
+	background-color: #56B9B4;
+	background-size: cover;
+  	min-height: 100hv;
+}
+.section3{
+	background-color: #FFFFFF;
+	background-size: cover;
+  	min-height: 100hv;
+}
+.section3 .container{
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+.navbar-brand{
+	font-size: 1.6rem;
+}
+.nav-item{
+	font-size: 1.35rem;
+	margin-right: 24px;
+}
+.navbar.container{
+	margin-left: 60px;
+}
+.display-1, .display-2, .display-3, .display-5, .display-6{
+	font-family: Bold; 
+}
+.section1 .display-4{
+	font-family: Medium;
+}
+.btn-primary{
+	background-color: #F4643F;
+	border-color: #B9B9B9;
+}
+.btn-primary:Hover{
+	background-color: white;
+	border-color: #F4643F;
+	color:#F4643F;
+}
+.btn{
+	margin-top: 80px; 
+	border-radius: 1.6rem;
+	padding: 14px 40px;
+	font-family: Bold;
+	font-size: 1.8rem;
+	border: 3px solid #B9B9B9;
+}
+
+.card-body{
+	padding: 80px 63px 56px 63px;
+}
+.card{
+	border-radius: 34px;
+	margin-top:5%;
+	box-shadow: 20px 25px 30px #0000004f
+}
+.education-font .display-4{
+	margin-top:24px; 
+	font-size: 1.25rem; 
+	font-family: ExtraBold;
+}
+.education-font .display-6{
+	font-family: Medium;
+	margin-top: 12px;
+	line-height: 2.6rem; 
+	font-size: 1.5rem;
+	color: #262435;
+}
+.skills-font .display-4{
+	margin-top:8px; 
+	font-size: 1.25rem; 
+	font-family: Medium;
+}
+.skills-font .display-6{
+	font-family: Bold;
+	margin-top: 8px;
+	color: #262435;
+	font-size: 1.5rem;
+}
+.skills-font .display-5{
+	font-family: SemiBold;
+	margin-top: 8px;
+	color: #262435;
+	font-size: 1.4rem;
+}
+.exp-font .display-4{ 
+	font-size: 1.25rem; 
+	font-family: Medium;
+	color: #262435;
+}
+.exp-font .display-6{
+	font-family: Bold;
+	margin-top: 8px;
+	font-size: 1.5rem;
+}
+.section3 .nav-tabs{
+	border-bottom: 0px solid #dee2e6;
+}
+
+.section3 .nav-tabs .nav-link{
+	color:#B9B9B9;
+	height: 54px;
+	width: 160px;
+	font-size: 1.25rem;
+	font-family: Bold;
+	background-color: #E5E5E5;
+	border: 1px solid #E5E5E5;
+	border-radius: 0;
+}
+.section3 .nav-tabs .nav-link.active{
+	color: white;
+	background-color: #56B9B4;
+	font-family: Bold;
+	border: 1px solid #56B9B4;
+}
+.progress-bar{
+	background-color: #56B9B4;
+}
+.progress{
+	background-color: #E5E5E5;
+	margin-top: 8px;
+	height: 18px;
+	border-radius: 1rem;
+	width: 70%;
+}
